@@ -1,0 +1,16 @@
+[package]
+name = "depthai-rgb-encoding-example-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.23"
+cxx = "1.0.81"
+env_logger = "0.9.3"
+log = "0.4.17"
+tokio = { version = "1.21.2", features = ["full"] }
+
+[build-dependencies]
+cxx-build = "1.0.81"

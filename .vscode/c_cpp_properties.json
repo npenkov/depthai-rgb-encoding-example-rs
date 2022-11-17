@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "name": "Linux",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/usr/local/include/**",
+        "/usr/include/**",
+        "${workspaceFolder}/deps/depthai-core/build/install/include/**",
+        "${workspaceFolder}/deps/depthai-core/build/install/include/depthai-shared/3rdparty/**",
+        "${workspaceFolder}/deps/depthai-core/build/install/lib/cmake/depthai/dependencies/include/**"
+      ],
+      "defines": [],
+      "compilerPath": "/bin/gcc",
+      "cStandard": "gnu17",
+      "cppStandard": "gnu++17",
+      "intelliSenseMode": "linux-gcc-x64",
+      "compileCommands": "${workspaceFolder}/deps/depthai-core/build/compile_commands.json"
+    }
+  ],
+  "version": 4
+}
