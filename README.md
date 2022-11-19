@@ -1,4 +1,4 @@
-# Using Depthai from Rust
+# Using DepthAI Core from Rust
 
 This is example from [DepthAI Examples for encoding rgb to h265](https://github.com/luxonis/depthai-core/blob/main/examples/VideoEncoder/rgb_encoding.cpp) but written in Rust.
 The goal of the project is to make an example how to use C++ written library and to use it from Rust.
