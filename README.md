@@ -42,3 +42,11 @@ Build and install depthai-core
 ```
 make run
 ```
+
+## Blog post
+
+[Using C++ library From Rust - DepthAI RGB Camera Example](https://npenkov.com/post/2022/11/19/using-cpp-from-rust-depthai-core-rgb-camera-example/)
+
+or:
+
+[on pnkv.dev domain](https://pnkv.dev/post/2022/11/19/using-cpp-from-rust-depthai-core-rgb-camera-example/)
