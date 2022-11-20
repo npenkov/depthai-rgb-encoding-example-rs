@@ -1,7 +1,9 @@
 # Using DepthAI Core from Rust
 
-This is example from [DepthAI Examples for encoding rgb to h265](https://github.com/luxonis/depthai-core/blob/main/examples/VideoEncoder/rgb_encoding.cpp) but written in Rust.
-The goal of the project is to make an example how to use C++ written library and to use it from Rust.
+The goal of the project is to make a showcase how to use C++ written library from Rust application.
+The project uses [cxx crate](https://lib.rs/crates/cxx) to build the C++ <-> Rust bridge.
+This is example from [DepthAI Examples for encoding rgb to h265](https://github.com/luxonis/depthai-core/blob/main/examples/VideoEncoder/rgb_encoding.cpp) - the example uses [DepthAI Core Library](https://github.com/luxonis/depthai-core) and records/writes H265 stream to the disk.
+
 
 ## Installation
 
@@ -28,6 +30,7 @@ Build and install depthai-core
   cmake --build build --parallel 4
   cmake --build build --target install
   ```
+  
 - Option 2:
   
   ```

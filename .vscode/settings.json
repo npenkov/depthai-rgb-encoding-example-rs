@@ -81,5 +81,6 @@
     "regex": "cpp",
     "ranges": "cpp",
     "span": "cpp"
-  }
+  },
+  "cmake.sourceDirectory": "${workspaceFolder}/deps/depthai-core"
 }
